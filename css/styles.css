@@ -1,0 +1,75 @@
+ul {
+    list-style-type: none;
+     widows: 100px;
+     background-color: white;
+     display: block;
+}
+
+li a {
+    background-color:none;
+    text-decoration: none;
+    display:inline;
+}
+
+ul li {
+    margin: 10px;
+}
+
+li a:hover {
+    background-color: #555;
+    color:#ffffff;
+    text-decoration: none;
+}
+h1:hover{
+
+    background-color: black;
+}
+
+h1 {color: blue;
+    text-align:center;
+}
+
+p {
+    color: orchid;
+    background-color: white;
+    text-align: justify;
+}
+p:hover{
+color: white;
+background-color: orchid;
+
+}
+
+li {
+    display:inline;   
+}
+
+li p  { 
+    background-color: #555;
+    color: white;
+}
+li p:hover{
+background-color: white;
+color: #555;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.hoverFun{
+    filter:grayscale(100%);
+}
+.hoverFun:hover{
+    filter:grayscale(0%);
+    transition: 2s;
+}
+
+.blackHole {
+    width: 90%;
+}
+.beach {
+width: 90%;
+
+}
+    
